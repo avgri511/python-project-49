@@ -1,0 +1,4 @@
+context.md
+.venv/
+__pycache__/
+*.py[cod]
