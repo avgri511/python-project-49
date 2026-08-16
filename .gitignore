@@ -1,4 +1,8 @@
-context.md
-.venv/
-__pycache__/
-*.py[cod]
+*.egg-info
+__pycache__
+dist/
+*.pyc
+.venv
+.coverage
+coverage.xml
+*_cache/
