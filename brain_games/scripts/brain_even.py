@@ -1,9 +1,11 @@
-from brain_games.games.even import play
+from brain_games.engine import run_game
+from brain_games.games.even import DESCRIPTION, generate_round
 
 
 def main():
-    play()
+    run_game(DESCRIPTION, generate_round)
 
 
 if __name__ == '__main__':
     main()
+
